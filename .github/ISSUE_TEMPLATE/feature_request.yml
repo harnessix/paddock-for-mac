@@ -1,0 +1,22 @@
+name: Feature request
+description: Suggest a change to paddock for Mac.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Each app in paddock for Mac sees only what you allow. A request that lets an app reach more of your Mac needs a clear reason.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What you tried to do, and what stopped you.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Your proposal
+      description: What paddock for Mac would do, and what an app could reach that it cannot reach now.
+    validations:
+      required: true

@@ -1,0 +1,60 @@
+name: Bug report
+description: Something in paddock for Mac does not work as expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        paddock for Mac needs a Mac with Apple silicon and macOS 14 or newer. A report without the versions below is closed.
+  - type: input
+    id: version
+    attributes:
+      label: paddock for Mac version
+      description: paddock for Mac > About paddock for Mac.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: cli
+    attributes:
+      label: paddock version
+      description: Output of `paddock --version`.
+      placeholder: paddock 0.2.3
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and Mac model
+      placeholder: macOS 15.1, MacBook Air M2
+    validations:
+      required: true
+  - type: textarea
+    id: doctor
+    attributes:
+      label: Output of `paddock doctor --report`
+      description: Run `paddock doctor --report` in Terminal and paste all of its output. It replaces your user name, host name, paths and tokens. Read it, and remove anything else you consider private.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What you clicked, starting from the first window.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened, and what you expected
+      description: A screenshot helps. Hide any private file names or server names first.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched the existing issues.
+          required: true
