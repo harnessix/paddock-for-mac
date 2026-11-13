@@ -1,0 +1,32 @@
+{
+  "v": 1,
+  "dir": "/Users/demo/Library/Application Support/paddock/macvm",
+  "golden": {
+    "state": "fetch",
+    "version": "50.1",
+    "build": "99A101",
+    "offline_failed": null
+  },
+  "prev": null,
+  "host_version": "50.1 (99A101)",
+  "profiles": [],
+  "sessions": [],
+  "slots": [
+    null,
+    null
+  ],
+  "paused": false,
+  "setup": {
+    "running": false,
+    "paused": false,
+    "last": {
+      "t": "2026-11-06T10:04:00Z",
+      "step": "fetch",
+      "bytes": 6600000000,
+      "total": 14000000000,
+      "paused": false,
+      "failed": "The download of the restore image stopped: the connection closed.",
+      "stopped": false
+    }
+  }
+}

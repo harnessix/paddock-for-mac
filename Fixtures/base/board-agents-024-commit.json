@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "approvals_waiting": 0,
+  "compile_slots": [],
+  "projects": [
+    {
+      "name": "shop",
+      "path": "/Users/demo/src/shop",
+      "loft_commits": 4,
+      "tickets": [
+        {"id": "CART1", "title": "Cart totals", "file": ".paddock/tickets/CART1-totals.md", "state": "working", "runs": [{"id": "claude-1a2b3c", "harness": "claude", "state": "working", "since": 1793959080, "loft_commits": 3}]}
+      ],
+      "runs_without_ticket": []
+    },
+    {
+      "name": "docs",
+      "path": "/Users/demo/src/docs",
+      "loft_commits": 7,
+      "tickets": [],
+      "runs_without_ticket": [{"id": "codex-4d5e6f", "harness": "codex", "state": "idle"}]
+    }
+  ]
+}

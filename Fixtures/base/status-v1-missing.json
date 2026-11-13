@@ -1,0 +1,21 @@
+{
+  "dir": "/Users/demo/Library/Application Support/paddock/macvm",
+  "golden": {
+    "state": "missing"
+  },
+  "host_version": "50.1 (99A101)",
+  "paused": false,
+  "prev": null,
+  "profiles": [],
+  "sessions": [],
+  "setup": {
+    "last": null,
+    "paused": false,
+    "running": false
+  },
+  "slots": [
+    null,
+    null
+  ],
+  "v": 1
+}

@@ -1,0 +1,46 @@
+{
+ "api_version": "paddock.changes/v1",
+ "run": {
+  "id": "gemini-111111",
+  "short": "111111",
+  "harness": "gemini",
+  "project": "/Users/demo/src/shop",
+  "copy": "/Users/demo/.local/share/paddock/copies/7c1d9e42/runs/gemini-111111/tree",
+  "state": "ended",
+  "started": 1793952000,
+  "ended": 1793953800,
+  "removed": null,
+  "method": "clone",
+  "shared": true,
+  "in_place": false,
+  "git": true,
+  "files": 412,
+  "bytes": 18400321,
+  "store": "7c1d9e42",
+  "base": null,
+  "carried": null
+ },
+ "pointer": {
+  "state": "ok",
+  "text": "The copies of this project are in its store.",
+  "action": null,
+  "ok": true,
+  "store": "7c1d9e42"
+ },
+ "token": "t-00000000",
+ "counts": {
+  "new": 0,
+  "changed": 0,
+  "deleted": 0,
+  "conflicts": 0,
+  "kept": 0,
+  "ready": 0,
+  "applied": 0,
+  "behind": 0
+ },
+ "changes": [],
+ "applied": [],
+ "behind": [],
+ "special": [],
+ "auto_apply": false
+}

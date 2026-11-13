@@ -1,0 +1,10 @@
+#!/bin/bash
+# A stand-in for /usr/bin/osascript in the launcher UI tests. The launcher
+# must never run osascript: its messages come from the app itself, with the
+# icon of the app. A test puts this folder first on the PATH of the app. A
+# call writes its arguments to $PADDOCK_FAKE_STATE/osascript.log, and the
+# test fails when that file exists.
+state=${PADDOCK_FAKE_STATE:-/tmp/paddock-fake}
+mkdir -p "$state"
+printf '%s %s\n' "$(date +%s)" "$*" >>"$state/osascript.log"
+exit 0

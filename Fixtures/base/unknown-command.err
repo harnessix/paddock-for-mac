@@ -1,0 +1,5 @@
+error: unrecognized subcommand 'board'
+
+Usage: paddock [OPTIONS] <COMMAND>
+
+For more information, try '--help'.

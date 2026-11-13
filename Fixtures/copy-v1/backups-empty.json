@@ -1,0 +1,13 @@
+{
+ "api_version": "paddock.backups/v1",
+ "project": "/Users/demo/src/shop",
+ "pointer": {
+  "state": "ok",
+  "text": "The copies of this project are in its store.",
+  "action": null,
+  "ok": true,
+  "store": "7c1d9e42"
+ },
+ "backups": [],
+ "snapshots": []
+}

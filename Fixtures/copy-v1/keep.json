@@ -1,0 +1,8 @@
+{
+ "paths": [
+  "src/cart.ts"
+ ],
+ "api_version": "paddock.keep/v1",
+ "run": "claude-1a2b3c",
+ "project": "/Users/demo/src/shop"
+}

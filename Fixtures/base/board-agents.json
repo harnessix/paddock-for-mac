@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "approvals_waiting": 1,
+  "compile_slots": [],
+  "projects": [
+    {
+      "name": "shop",
+      "path": "/Users/demo/src/shop",
+      "tickets": [
+        {"id": "CART1", "title": "Cart totals", "file": ".paddock/tickets/CART1-totals.md", "state": "waiting", "runs": [{"id": "claude-1a2b3c", "harness": "claude", "state": "waiting", "since": 1793959080}]}
+      ],
+      "runs_without_ticket": [{"id": "gemini-111111", "harness": "gemini", "state": "done", "status": "done: docs updated"}]
+    },
+    {
+      "name": "docs",
+      "path": "/Users/demo/src/docs",
+      "tickets": [],
+      "runs_without_ticket": [{"id": "codex-4d5e6f", "harness": "codex", "state": "idle"}]
+    }
+  ]
+}

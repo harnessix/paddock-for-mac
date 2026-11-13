@@ -1,0 +1,32 @@
+Start a harness in a sandbox (the same as `paddock <harness>`)
+
+Usage: paddock run [OPTIONS] [HARNESS] [PATH] [-- <ARGS>...]
+
+Arguments:
+  [HARNESS]  Harness name, for example claude or codex. Defaults to default_harness in paddock.toml
+  [PATH]     Project directory. Defaults to the current directory, widened to its git root
+  [ARGS]...  Arguments for the harness, after `--`
+
+Options:
+  -b, --backend <BACKEND>   auto, bwrap, docker, podman, srt, seatbelt or vm (macOS)
+  -v, --verbose...          Show more log output: -v info, -vv debug, -vvv trace. PADDOCK_LOG=debug or PADDOCK_LOG=broker=debug sets levels too
+  -n, --network <NETWORK>   none, api, egress or host. api: only the model API hosts of the profile and the domains of --allow, over HTTPS through the paddock proxy
+  -q, --quiet...            Show only errors
+      --gui <GUI>           off, headless, window or host
+      --gpu                 Bind GPU render nodes
+      --env <ENV>           inherit (default) passes the host environment; clean passes only the allowlist [possible values: inherit, clean]
+      --auth <AUTH>         shared (default) reuses your login; isolated or isolated:NAME uses a separate one
+      --allow <ALLOW>       A domain the sandbox can reach in network modes api and allowlist (repeatable). HOST, HOST:PORT, or *.DOMAIN for its subdomains
+      --worktree            Work in a new git worktree on its own branch, and review the diff afterwards
+      --pasture <NAME>      Join this pasture of the project: [pastures.NAME] of the user configuration. Its members share the pasture scope of paddock kv. Without it, the sandbox shares paddock kv with no other
+      --device <NAME>       Give this run a device of the user configuration (repeatable): [devices.NAME] of ~/.config/paddock/config.toml, whatever its grant says. `paddock device ls` lists them
+      --profile <PROFILE>   default: start the harness with a private snapshot of its own host data (conversations, settings, plugins) in the sandbox home. The run changes only the snapshot, and paddock removes it at the end. bwrap only [possible values: default]
+      --no-yolo             Start the harness without its auto-approval flags
+      --manual              Manual mode: the agent asks before its steps; no auto-approval flags
+  -y, --yes                 Approve the project's paddock.toml without asking
+      --detach              Start the run in the background, in a session of paddock's own tmux server: the harness runs its interactive interface with the task as its first prompt. `paddock view 1a2b3c --write` takes over, `paddock wait 1a2b3c` waits for the end. Needs --prompt-file or --prompt
+      --prompt-file <FILE>  With --detach: the file with the task
+      --prompt <TEXT>       With --detach: the task as text
+      --horse               Record this run in a new horse (dsh, Claude, or Codex). Also enabled by `[horse] enabled`
+      --horse-id <ID>       Continue the horse ID in horse mode: dsh resumes its newest session
+  -h, --help                Print help

@@ -1,0 +1,31 @@
+{
+ "api_version": "paddock.pointer/v1",
+ "project": "/Users/demo/src/shop",
+ "state": "moved",
+ "text": "This folder moved. Its store still names the old place.",
+ "action": "paddock pointer adopt /Users/demo/src/shop",
+ "ok": false,
+ "pointer": {
+  "format": 1,
+  "store": "7c1d9e42",
+  "created": 1790503200
+ },
+ "store": {
+  "id": "7c1d9e42",
+  "dir": "/Users/demo/.local/share/paddock/copies/7c1d9e42",
+  "original": "/Users/demo/code/shop",
+  "created": 1790503200,
+  "runs": 6,
+  "copies": 2,
+  "backups": 5,
+  "size": {
+   "bytes": 1284000000,
+   "kind": "on_disk"
+  }
+ },
+ "encryption": {
+  "encrypted": false,
+  "kind": "none",
+  "text": "This disk is not encrypted."
+ }
+}

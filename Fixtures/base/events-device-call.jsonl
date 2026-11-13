@@ -1,0 +1,4 @@
+{"v":1,"kind":"stream","state":"started"}
+{"v":1,"kind":"device_call","sandbox":"claude-1a2b3c","device":"camera","covered":false}
+{"v":1,"kind":"device_call","sandbox":"claude-1a2b3c","device":"camera","state":"ask"}
+#hold

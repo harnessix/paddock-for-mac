@@ -1,0 +1,11 @@
+{
+ "applied": 7,
+ "deleted": 1,
+ "skipped": [
+  "src/checkout.ts"
+ ],
+ "backup": "b-20261106-ffee00",
+ "api_version": "paddock.apply/v1",
+ "run": "claude-1a2b3c",
+ "project": "/Users/demo/src/shop"
+}

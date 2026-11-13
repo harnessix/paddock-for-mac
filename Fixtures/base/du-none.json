@@ -1,0 +1,312 @@
+{
+  "any_running": false,
+  "api_version": "paddock.du/v1",
+  "build_cache": [],
+  "build_caches": [],
+  "classes": [
+    {
+      "bytes": 5050368,
+      "class": "scratch",
+      "folders": 1
+    },
+    {
+      "bytes": 20480,
+      "class": "shared",
+      "folders": 2
+    },
+    {
+      "bytes": 0,
+      "class": "runtime",
+      "folders": 0
+    }
+  ],
+  "homes": [
+    {
+      "app": false,
+      "auth": "isolated:check",
+      "bytes": 40099840,
+      "harness": "agy",
+      "last_used": 1793718479,
+      "loses": "transcripts, history and settings of this project; the login stays in ~/.local/share/paddock/auth/agy/check",
+      "modified": 1793718445,
+      "origin": "ok",
+      "path": "/Users/demo/.local/share/paddock/homes/agy/isolated-check/paddock-real_HsYe-dec0931e40",
+      "profile": true,
+      "project": "/private/tmp/paddock-real.HsYe",
+      "project_exists": false,
+      "running": false
+    },
+    {
+      "app": false,
+      "auth": "isolated:check",
+      "bytes": 4096,
+      "harness": "codex",
+      "last_used": 1794499907,
+      "loses": "transcripts, history and settings of this project; the login stays in ~/.local/share/paddock/auth/codex/check",
+      "modified": 1794499907,
+      "origin": "ok",
+      "path": "/Users/demo/.local/share/paddock/homes/codex/isolated-check/paddock-real_HsYe-5007436780",
+      "profile": true,
+      "project": "/private/tmp/paddock-real_HsYe",
+      "project_exists": false,
+      "running": false
+    },
+    {
+      "app": false,
+      "auth": "isolated:check",
+      "bytes": 4096,
+      "harness": "codex",
+      "last_used": 1794499907,
+      "loses": "transcripts, history and settings of this project; the login stays in ~/.local/share/paddock/auth/codex/check",
+      "modified": 1794499907,
+      "origin": "ok",
+      "path": "/Users/demo/.local/share/paddock/homes/codex/isolated-check/paddock-real_HsYe-c3826da7df",
+      "profile": true,
+      "project": "/private/var/folders/c2/171bjkgj5wzc4vt7zdknp0tr0000gq/T/paddock-real_HsYe",
+      "project_exists": false,
+      "running": false
+    },
+    {
+      "app": false,
+      "auth": "isolated:check",
+      "bytes": 86573056,
+      "harness": "codex",
+      "last_used": 1793711602,
+      "loses": "transcripts, history and settings of this project; the login stays in ~/.local/share/paddock/auth/codex/check",
+      "modified": 1794499933,
+      "origin": "ok",
+      "path": "/Users/demo/.local/share/paddock/homes/codex/isolated-check/paddock-real_HsYe-dec0931e40",
+      "profile": true,
+      "project": "/private/tmp/paddock-real.HsYe",
+      "project_exists": false,
+      "running": false
+    },
+    {
+      "app": false,
+      "auth": "isolated:check",
+      "bytes": 34955264,
+      "harness": "codex",
+      "last_used": 1794500014,
+      "loses": "transcripts, history and settings of this project; the login stays in ~/.local/share/paddock/auth/codex/check",
+      "modified": 1794500014,
+      "origin": "ok",
+      "path": "/Users/demo/.local/share/paddock/homes/codex/isolated-check/proj-1f8c90eae3",
+      "profile": true,
+      "project": "/private/tmp/pdk-codextest/proj",
+      "project_exists": false,
+      "running": false
+    },
+    {
+      "app": false,
+      "auth": "shared",
+      "bytes": 29966336,
+      "harness": "codex",
+      "last_used": 1793710088,
+      "loses": "transcripts, history and settings of this project; the login stays in your host home",
+      "modified": 1793710087,
+      "origin": "ok",
+      "path": "/Users/demo/.local/share/paddock/homes/codex/shared/paddock-real_HsYe-dec0931e40",
+      "profile": true,
+      "project": "/private/tmp/paddock-real.HsYe",
+      "project_exists": false,
+      "running": false
+    },
+    {
+      "app": false,
+      "auth": "shared",
+      "bytes": 4096,
+      "harness": "codex",
+      "last_used": 1793795509,
+      "loses": "transcripts, history and settings of this project; the login stays in your host home",
+      "modified": 1793795509,
+      "origin": "ok",
+      "path": "/Users/demo/.local/share/paddock/homes/codex/shared/pexplain-47494ee1ca",
+      "profile": true,
+      "project": "/private/tmp/pexplain",
+      "project_exists": false,
+      "running": false
+    },
+    {
+      "app": false,
+      "auth": "shared",
+      "bytes": 4096,
+      "harness": "codex",
+      "last_used": 1794499784,
+      "loses": "transcripts, history and settings of this project; the login stays in your host home",
+      "modified": 1794499784,
+      "origin": "ok",
+      "path": "/Users/demo/.local/share/paddock/homes/codex/shared/proj-1f8c90eae3",
+      "profile": true,
+      "project": "/private/tmp/pdk-codextest/proj",
+      "project_exists": false,
+      "running": false
+    },
+    {
+      "app": false,
+      "auth": "isolated:check",
+      "bytes": 58478592,
+      "harness": "grok",
+      "last_used": 1793711766,
+      "loses": "transcripts, history and settings of this project; the login stays in ~/.local/share/paddock/auth/grok/check",
+      "modified": 1793711762,
+      "origin": "ok",
+      "path": "/Users/demo/.local/share/paddock/homes/grok/isolated-check/paddock-real_HsYe-dec0931e40",
+      "profile": true,
+      "project": "/private/tmp/paddock-real.HsYe",
+      "project_exists": false,
+      "running": false
+    }
+  ],
+  "images": [],
+  "keyrings": [],
+  "layers": [],
+  "mailboxes": [
+    {
+      "bytes": 628,
+      "ended": 1794499935,
+      "id": "codex-proj-58baf9",
+      "path": "/Users/demo/.local/state/paddock/mail/codex-proj-58baf9"
+    },
+    {
+      "bytes": 628,
+      "ended": 1794500014,
+      "id": "codex-proj-074562",
+      "path": "/Users/demo/.local/state/paddock/mail/codex-proj-074562"
+    }
+  ],
+  "notes": [
+    "docker: cannot list images (is the daemon running?)",
+    "the sandbox homes are on a macOS file system, which cannot share file data: paddock does not deduplicate them"
+  ],
+  "old_caches": [],
+  "scratch": [],
+  "sessions": [
+    {
+      "bytes": 272,
+      "ended": 1794500014,
+      "id": "codex-proj-074562",
+      "path": "/Users/demo/.local/state/paddock/sessions/codex-proj-074562.json",
+      "running": false,
+      "started": 1794499950
+    },
+    {
+      "bytes": 272,
+      "ended": 1794499935,
+      "id": "codex-proj-58baf9",
+      "path": "/Users/demo/.local/state/paddock/sessions/codex-proj-58baf9.json",
+      "running": false,
+      "started": 1794499934
+    },
+    {
+      "bytes": 319,
+      "ended": 1793718479,
+      "id": "agy-paddock-0d2f4c",
+      "path": "/Users/demo/.local/state/paddock/sessions/agy-paddock-0d2f4c.json",
+      "running": false,
+      "started": 1793718445
+    },
+    {
+      "bytes": 319,
+      "ended": 1793718433,
+      "id": "agy-paddock-7f8064",
+      "path": "/Users/demo/.local/state/paddock/sessions/agy-paddock-7f8064.json",
+      "running": false,
+      "started": 1793718416
+    },
+    {
+      "bytes": 319,
+      "ended": 1793712550,
+      "id": "agy-paddock-d9d345",
+      "path": "/Users/demo/.local/state/paddock/sessions/agy-paddock-d9d345.json",
+      "running": false,
+      "started": 1793712502
+    },
+    {
+      "bytes": 319,
+      "ended": 1793712424,
+      "id": "agy-paddock-beaf89",
+      "path": "/Users/demo/.local/state/paddock/sessions/agy-paddock-beaf89.json",
+      "running": false,
+      "started": 1793712376
+    },
+    {
+      "bytes": 319,
+      "ended": 1793711869,
+      "id": "agy-paddock-f129c2",
+      "path": "/Users/demo/.local/state/paddock/sessions/agy-paddock-f129c2.json",
+      "running": false,
+      "started": 1793711808
+    },
+    {
+      "bytes": 322,
+      "ended": 1793711766,
+      "id": "grok-paddock-8c48a6",
+      "path": "/Users/demo/.local/state/paddock/sessions/grok-paddock-8c48a6.json",
+      "running": false,
+      "started": 1793711736
+    },
+    {
+      "bytes": 322,
+      "ended": 1793711712,
+      "id": "grok-paddock-2d79b0",
+      "path": "/Users/demo/.local/state/paddock/sessions/grok-paddock-2d79b0.json",
+      "running": false,
+      "started": 1793711628
+    },
+    {
+      "bytes": 325,
+      "ended": 1793711602,
+      "id": "codex-paddock-6d8b01",
+      "path": "/Users/demo/.local/state/paddock/sessions/codex-paddock-6d8b01.json",
+      "running": false,
+      "started": 1793711575
+    },
+    {
+      "bytes": 325,
+      "ended": 1793711558,
+      "id": "codex-paddock-87ebec",
+      "path": "/Users/demo/.local/state/paddock/sessions/codex-paddock-87ebec.json",
+      "running": false,
+      "started": 1793711257
+    },
+    {
+      "bytes": 317,
+      "ended": 1793710088,
+      "id": "codex-paddock-c72f19",
+      "path": "/Users/demo/.local/state/paddock/sessions/codex-paddock-c72f19.json",
+      "running": false,
+      "started": 1793710026
+    },
+    {
+      "bytes": 317,
+      "ended": 1793709990,
+      "id": "codex-paddock-644756",
+      "path": "/Users/demo/.local/state/paddock/sessions/codex-paddock-644756.json",
+      "running": false,
+      "started": 1793709724
+    }
+  ],
+  "size_kind": "allocated",
+  "snapshots": [
+    {
+      "bytes": 0,
+      "harness": "codex",
+      "path": "/Users/demo/.local/share/paddock/snapshots/proj-1f8c90eae3/codex-proj-074562",
+      "project": "/private/tmp/pdk-codextest/proj",
+      "project_exists": false,
+      "started": 1794499950,
+      "trash": false
+    },
+    {
+      "bytes": 0,
+      "harness": "codex",
+      "path": "/Users/demo/.local/share/paddock/snapshots/proj-1f8c90eae3/codex-proj-58baf9",
+      "project": "/private/tmp/pdk-codextest/proj",
+      "project_exists": false,
+      "started": 1794499933,
+      "trash": false
+    }
+  ],
+  "tmpfs_caches": true,
+  "worktrees": []
+}
