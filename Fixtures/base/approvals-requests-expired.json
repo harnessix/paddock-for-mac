@@ -1,0 +1,90 @@
+{
+  "v": 1,
+  "api_version": "paddock.approvals/v1",
+  "complete": true,
+  "diagnostics": [],
+  "local_outcomes": [],
+  "unresolved": [],
+  "pending": [
+    {
+      "id": "r-1793959080-aa11bb22",
+      "sandbox": "claude-1a2b3c",
+      "harness": "claude",
+      "project": "/Users/demo/src/shop",
+      "capability": "exec",
+      "summary": "run a host command",
+      "detail": "npm publish --dry-run",
+      "reason": "Check the package before the release",
+      "created": 1793959080,
+      "expires": 1893456000,
+      "session_allowed": true,
+      "choices": [
+        "once",
+        "session",
+        "deny",
+        "deny-session"
+      ],
+      "age_s": 120,
+      "process": null
+    },
+    {
+      "id": "r-1793959140-cc33dd44",
+      "sandbox": "claude-1a2b3c",
+      "harness": "claude",
+      "project": "/Users/demo/src/shop",
+      "capability": "push",
+      "summary": "push to origin",
+      "detail": "git push origin paddock/claude-1a2b3c",
+      "reason": "",
+      "created": 1793959140,
+      "expires": 0,
+      "session_allowed": false,
+      "choices": [
+        "once",
+        "deny"
+      ],
+      "age_s": 60,
+      "process": null
+    },
+    {
+      "id": "r-live-url-agy",
+      "sandbox": "agy-5e5e5e",
+      "harness": "agy",
+      "project": "/Users/demo/src/site",
+      "capability": "open-url",
+      "summary": "open a URL in the host browser",
+      "detail": "Open in the host browser: https://accounts.google.com/o/oauth2/auth?client_id=1234567890-abcdefghijklmnop.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8085%2Foauth2callback&response_type=code&scope=openid%20email%20profile&state=Zm9vYmFyYmF6&access_type=offline&prompt=consent",
+      "reason": "",
+      "created": @NOW-30@,
+      "expires": @NOW+3600@,
+      "session_allowed": true,
+      "choices": [
+        "once",
+        "session",
+        "deny"
+      ],
+      "age_s": 30,
+      "process": null
+    },
+    {
+      "id": "r-timed-out-agy",
+      "sandbox": "agy-5e5e5e",
+      "harness": "agy",
+      "project": "/Users/demo/src/site",
+      "capability": "exec",
+      "summary": "run a host command",
+      "detail": "open -a Safari",
+      "reason": "",
+      "created": @NOW-900@,
+      "expires": @NOW-300@,
+      "session_allowed": true,
+      "choices": [
+        "once",
+        "session",
+        "deny"
+      ],
+      "age_s": 900,
+      "process": null
+    }
+  ]
+}

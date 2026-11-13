@@ -1,0 +1,1 @@
+{"api_version":"paddock.list/v1","harnesses":[{"app":false,"description":"Anthropic Claude Code","exe":null,"installed":false,"name":"claude"},{"app":false,"description":"OpenAI Codex CLI","exe":null,"installed":false,"name":"codex"},{"app":true,"description":"Visual Studio Code","exe":"/usr/local/bin/code","installed":true,"name":"vscode"}]}

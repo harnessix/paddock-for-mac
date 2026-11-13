@@ -1,0 +1,59 @@
+{
+  "v": 1,
+  "api_version": "paddock.approvals/v1",
+  "complete": true,
+  "diagnostics": [],
+  "local_outcomes": [],
+  "unresolved": [],
+  "pending": [
+    {
+      "id": "r-1793959080-aa11bb22",
+      "sandbox": "claude-1a2b3c",
+      "harness": "claude",
+      "project": "/Users/demo/src/shop",
+      "capability": "exec",
+      "summary": "run a host command",
+      "detail": "npm publish --dry-run",
+      "reason": "Check the package before the release",
+      "created": @NOW-120@,
+      "expires": @NOW+86400@,
+      "session_allowed": true,
+      "choices": ["once", "session", "deny", "deny-session"],
+      "age_s": 120,
+      "process": null
+    },
+    {
+      "id": "r-1793959140-cc33dd44",
+      "sandbox": "claude-1a2b3c",
+      "harness": "claude",
+      "project": "/Users/demo/src/shop",
+      "capability": "push",
+      "summary": "push to origin",
+      "detail": "git push origin paddock/claude-1a2b3c",
+      "reason": "",
+      "created": @NOW-60@,
+      "expires": 0,
+      "session_allowed": false,
+      "choices": ["once", "deny"],
+      "age_s": 60,
+      "process": null
+    },
+    {
+      "id": "r-shown-g1",
+      "sandbox": "macvm-sample-notes",
+      "harness": "sample-notes",
+      "project": "/tmp/profile",
+      "capability": "connect",
+      "summary": "A connection",
+      "detail": "A connection",
+      "reason": "",
+      "created": @NOW-1@,
+      "expires": 0,
+      "session_allowed": true,
+      "choices": ["allow-once", "deny"],
+      "connect": {"app": "com.example.notes", "host": "api.example.com", "port": 443, "count": 1, "asked_at": @NOW-1@, "pid": 123, "path": "/Applications/Sample Notes.app/Contents/MacOS/Sample Notes", "profile": "Sample Notes"},
+      "age_s": 1,
+      "process": "/Applications/Sample Notes.app/Contents/MacOS/Sample Notes"
+    }
+  ]
+}

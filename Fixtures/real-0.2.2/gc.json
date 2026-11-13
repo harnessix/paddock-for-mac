@@ -1,0 +1,200 @@
+{
+  "api_version": "paddock.gc/v1",
+  "dedupe": null,
+  "dry_run": true,
+  "items": [
+    {
+      "action": {
+        "kind": "path",
+        "path": "/Users/demo/.local/share/paddock/homes/agy/isolated-check/paddock-real_HsYe-dec0931e40"
+      },
+      "bytes": 40099840,
+      "needs": [
+        "--homes"
+      ],
+      "reason": "the project /private/tmp/paddock-real.HsYe is gone",
+      "tier": "consent",
+      "warning": "transcripts, history and settings of this project; the login stays in ~/.local/share/paddock/auth/agy/check",
+      "what": "home agy/isolated-check/paddock-real_HsYe-dec0931e40"
+    },
+    {
+      "action": {
+        "kind": "path",
+        "path": "/Users/demo/.local/share/paddock/homes/codex/isolated-check/paddock-real_HsYe-5007436780"
+      },
+      "bytes": 4096,
+      "needs": [
+        "--homes"
+      ],
+      "reason": "the project /private/tmp/paddock-real_HsYe is gone",
+      "tier": "consent",
+      "warning": "transcripts, history and settings of this project; the login stays in ~/.local/share/paddock/auth/codex/check",
+      "what": "home codex/isolated-check/paddock-real_HsYe-5007436780"
+    },
+    {
+      "action": {
+        "kind": "path",
+        "path": "/Users/demo/.local/share/paddock/homes/codex/isolated-check/paddock-real_HsYe-c3826da7df"
+      },
+      "bytes": 4096,
+      "needs": [
+        "--homes"
+      ],
+      "reason": "the project /private/var/folders/c2/171bjkgj5wzc4vt7zdknp0tr0000gq/T/paddock-real_HsYe is gone",
+      "tier": "consent",
+      "warning": "transcripts, history and settings of this project; the login stays in ~/.local/share/paddock/auth/codex/check",
+      "what": "home codex/isolated-check/paddock-real_HsYe-c3826da7df"
+    },
+    {
+      "action": {
+        "kind": "path",
+        "path": "/Users/demo/.local/share/paddock/homes/codex/isolated-check/paddock-real_HsYe-dec0931e40"
+      },
+      "bytes": 86573056,
+      "needs": [
+        "--homes"
+      ],
+      "reason": "the project /private/tmp/paddock-real.HsYe is gone",
+      "tier": "consent",
+      "warning": "transcripts, history and settings of this project; the login stays in ~/.local/share/paddock/auth/codex/check",
+      "what": "home codex/isolated-check/paddock-real_HsYe-dec0931e40"
+    },
+    {
+      "action": {
+        "kind": "path",
+        "path": "/Users/demo/.local/share/paddock/homes/codex/isolated-check/proj-1f8c90eae3"
+      },
+      "bytes": 34955264,
+      "needs": [
+        "--homes"
+      ],
+      "reason": "the project /private/tmp/pdk-codextest/proj is gone",
+      "tier": "consent",
+      "warning": "transcripts, history and settings of this project; the login stays in ~/.local/share/paddock/auth/codex/check",
+      "what": "home codex/isolated-check/proj-1f8c90eae3"
+    },
+    {
+      "action": {
+        "kind": "path",
+        "path": "/Users/demo/.local/share/paddock/homes/codex/shared/paddock-real_HsYe-dec0931e40"
+      },
+      "bytes": 29966336,
+      "needs": [
+        "--homes"
+      ],
+      "reason": "the project /private/tmp/paddock-real.HsYe is gone",
+      "tier": "consent",
+      "warning": "transcripts, history and settings of this project; the login stays in your host home",
+      "what": "home codex/shared/paddock-real_HsYe-dec0931e40"
+    },
+    {
+      "action": {
+        "kind": "path",
+        "path": "/Users/demo/.local/share/paddock/homes/codex/shared/pexplain-47494ee1ca"
+      },
+      "bytes": 4096,
+      "needs": [
+        "--homes"
+      ],
+      "reason": "the project /private/tmp/pexplain is gone",
+      "tier": "consent",
+      "warning": "transcripts, history and settings of this project; the login stays in your host home",
+      "what": "home codex/shared/pexplain-47494ee1ca"
+    },
+    {
+      "action": {
+        "kind": "path",
+        "path": "/Users/demo/.local/share/paddock/homes/codex/shared/proj-1f8c90eae3"
+      },
+      "bytes": 4096,
+      "needs": [
+        "--homes"
+      ],
+      "reason": "the project /private/tmp/pdk-codextest/proj is gone",
+      "tier": "consent",
+      "warning": "transcripts, history and settings of this project; the login stays in your host home",
+      "what": "home codex/shared/proj-1f8c90eae3"
+    },
+    {
+      "action": {
+        "kind": "path",
+        "path": "/Users/demo/.local/share/paddock/homes/grok/isolated-check/paddock-real_HsYe-dec0931e40"
+      },
+      "bytes": 58478592,
+      "needs": [
+        "--homes"
+      ],
+      "reason": "the project /private/tmp/paddock-real.HsYe is gone",
+      "tier": "consent",
+      "warning": "transcripts, history and settings of this project; the login stays in ~/.local/share/paddock/auth/grok/check",
+      "what": "home grok/isolated-check/paddock-real_HsYe-dec0931e40"
+    },
+    {
+      "action": {
+        "kind": "path",
+        "path": "/Users/demo/.local/share/paddock/snapshots/proj-1f8c90eae3/codex-proj-074562"
+      },
+      "bytes": 0,
+      "needs": [],
+      "reason": "its project is gone",
+      "tier": "auto",
+      "warning": null,
+      "what": "snapshot codex-proj-074562 of /private/tmp/pdk-codextest/proj"
+    },
+    {
+      "action": {
+        "kind": "path",
+        "path": "/Users/demo/.local/share/paddock/snapshots/proj-1f8c90eae3/codex-proj-58baf9"
+      },
+      "bytes": 0,
+      "needs": [],
+      "reason": "its project is gone",
+      "tier": "auto",
+      "warning": null,
+      "what": "snapshot codex-proj-58baf9 of /private/tmp/pdk-codextest/proj"
+    },
+    {
+      "action": {
+        "folders": [
+          ".codex/cache"
+        ],
+        "home": "/Users/demo/.local/share/paddock/homes/codex/isolated-check/proj-1f8c90eae3",
+        "kind": "caches"
+      },
+      "bytes": 5050368,
+      "needs": [],
+      "reason": "they rebuild themselves: .codex/cache",
+      "tier": "auto",
+      "warning": null,
+      "what": "pure caches in home codex/isolated-check/proj-1f8c90eae3"
+    },
+    {
+      "action": {
+        "kind": "path",
+        "path": "/Users/demo/.local/share/paddock/borrow/codex-proj-4f1b94"
+      },
+      "bytes": 0,
+      "needs": [],
+      "reason": "the sandbox ended without removing them; nothing was returned from them",
+      "tier": "auto",
+      "warning": null,
+      "what": "borrowed copies of codex-proj-4f1b94 (/Users/demo/.local/share/paddock/borrow/codex-proj-4f1b94)"
+    },
+    {
+      "action": {
+        "kind": "path",
+        "path": "/Users/demo/.local/share/paddock/borrow/codex-proj-c8d2fa"
+      },
+      "bytes": 0,
+      "needs": [],
+      "reason": "the sandbox ended without removing them; nothing was returned from them",
+      "tier": "auto",
+      "warning": null,
+      "what": "borrowed copies of codex-proj-c8d2fa (/Users/demo/.local/share/paddock/borrow/codex-proj-c8d2fa)"
+    }
+  ],
+  "notes": [
+    "docker: cannot list images (is the daemon running?)"
+  ],
+  "removed": []
+}

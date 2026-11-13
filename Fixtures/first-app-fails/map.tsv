@@ -1,0 +1,30 @@
+# argument prefix<TAB>answer files in ../base, in turn; the last one repeats
+--version	version-022.out
+--launcher-protocol	../core/launcher-protocol/mac-v1.json
+app --help	app-help.out
+approvals --json	approvals-empty.json
+doctor --json	doctor-ok.json
+events --follow --json	events-v1.jsonl
+app status	status-sample-notes.json
+app log	log-sample-notes.out
+app run	empty.out
+app stop	empty.out
+app install	empty.out
+app remove	remove-report.json
+du --json	du.json
+gc --json	gc-dry.json
+macvm setup --pause-download	pause-requested.json
+macvm setup --resume	pause-requested.json
+macvm remove --yes	macvm-remove.json
+macvm update	empty.out
+list --json	list-agents.json
+recent --json	recent-empty.json
+ps --json	ps-empty.json
+board --json	board-empty.json
+run --help	run-help.out
+# The first build fails on the download; Try Again finishes it.
+macvm status --json	status-v1-missing.json,status-v1-failed-download.json,status-v1-sealed-empty.json
+macvm setup --json	setup-v1-fails.jsonl,setup-v1-finish.jsonl
+app add /Applications/Notebook.app --dry-run	add-review-ok.json
+app add /Applications/Notebook.app --name	add-report-ok.json
+app list --json	apps-empty.json,profiles-notebook.json

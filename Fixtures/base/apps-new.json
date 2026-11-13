@@ -1,0 +1,18 @@
+{
+  "v": 1,
+  "apps": [
+    {
+      "name": "Sample Notes",
+      "bundle_path": "/Applications/Sample Notes.app",
+      "state": "stopped",
+      "sizes": {
+        "app_copy": 0,
+        "data": 0,
+        "saved_state": 0
+      },
+      "network": "ask",
+      "open_questions": 0,
+      "rule_count": 0
+    }
+  ]
+}

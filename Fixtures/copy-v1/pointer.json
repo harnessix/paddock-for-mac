@@ -1,0 +1,31 @@
+{
+ "api_version": "paddock.pointer/v1",
+ "project": "/Users/demo/src/shop",
+ "state": "ok",
+ "text": "The copies of this project are in its store.",
+ "action": null,
+ "ok": true,
+ "pointer": {
+  "format": 1,
+  "store": "7c1d9e42",
+  "created": 1790503200
+ },
+ "store": {
+  "id": "7c1d9e42",
+  "dir": "/Users/demo/.local/share/paddock/copies/7c1d9e42",
+  "original": "/Users/demo/src/shop",
+  "created": 1790503200,
+  "runs": 6,
+  "copies": 2,
+  "backups": 5,
+  "size": {
+   "bytes": 1284000000,
+   "kind": "on_disk"
+  }
+ },
+ "encryption": {
+  "encrypted": true,
+  "kind": "filevault",
+  "text": "FileVault is on for this disk."
+ }
+}

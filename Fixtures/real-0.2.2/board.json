@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "approvals_waiting": 0,
+  "compile_slots": [],
+  "projects": [
+    {
+      "name": "proj",
+      "path": "/private/tmp/pdk-codextest/proj",
+      "loft": "/Users/demo/.local/share/paddock/loft/1f8c90eae31e84b7/tree/.paddock",
+      "tickets": [],
+      "runs_without_ticket": [
+        {
+          "id": "074562",
+          "harness": "codex",
+          "model": "",
+          "state": "ended",
+          "last": "the sandbox ended with exit code 0",
+          "since": "2026-11-12T16:13:34Z",
+          "card": false
+        },
+        {
+          "id": "58baf9",
+          "harness": "codex",
+          "model": "",
+          "state": "ended",
+          "last": "the sandbox ended with exit code 2",
+          "since": "2026-11-12T16:12:15Z",
+          "card": false
+        }
+      ]
+    }
+  ]
+}

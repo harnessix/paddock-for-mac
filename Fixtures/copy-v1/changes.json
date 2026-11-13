@@ -1,0 +1,236 @@
+{
+ "api_version": "paddock.changes/v1",
+ "run": {
+  "id": "claude-1a2b3c",
+  "short": "1a2b3c",
+  "harness": "claude",
+  "project": "/Users/demo/src/shop",
+  "copy": "/Users/demo/.local/share/paddock/copies/7c1d9e42/runs/claude-1a2b3c/tree",
+  "state": "live",
+  "started": 1793958000,
+  "ended": null,
+  "removed": null,
+  "method": "clone",
+  "shared": true,
+  "in_place": false,
+  "git": true,
+  "files": 412,
+  "bytes": 18400321,
+  "store": "7c1d9e42",
+  "base": null,
+  "carried": null
+ },
+ "pointer": {
+  "state": "ok",
+  "text": "The copies of this project are in its store.",
+  "action": null,
+  "ok": true,
+  "store": "7c1d9e42"
+ },
+ "token": "t-5f2c81aa",
+ "counts": {
+  "new": 2,
+  "changed": 5,
+  "deleted": 1,
+  "conflicts": 2,
+  "kept": 1,
+  "ready": 5,
+  "applied": 1,
+  "behind": 1
+ },
+ "changes": [
+  {
+   "path": "README.md",
+   "kind": "changed",
+   "state": "conflict",
+   "conflict": "both_changed",
+   "conflict_text": "You changed this file after the agent started.",
+   "kept": false,
+   "writing": false,
+   "copy": {
+    "size": 1310,
+    "mtime": 1793958900,
+    "mode": "0644",
+    "link": null
+   },
+   "original": {
+    "size": 1262,
+    "mtime": 1793958960,
+    "mode": "0644",
+    "link": null
+   },
+   "text": true,
+   "added": 4,
+   "removed": 1,
+   "merge": "clean"
+  },
+  {
+   "path": "assets/logo.png",
+   "kind": "changed",
+   "state": "open",
+   "conflict": null,
+   "conflict_text": null,
+   "kept": false,
+   "writing": false,
+   "copy": {
+    "size": 141,
+    "mtime": 1793958300,
+    "mode": "0644",
+    "link": null
+   },
+   "original": {
+    "size": 141,
+    "mtime": 1793700000,
+    "mode": "0644",
+    "link": null
+   },
+   "text": false,
+   "added": null,
+   "removed": null,
+   "merge": null
+  },
+  {
+   "path": "docs/notes.md",
+   "kind": "new",
+   "state": "open",
+   "conflict": null,
+   "conflict_text": null,
+   "kept": false,
+   "writing": false,
+   "copy": {
+    "size": 86,
+    "mtime": 1793958600,
+    "mode": "0644",
+    "link": null
+   },
+   "original": null,
+   "text": true,
+   "added": 4,
+   "removed": 0,
+   "merge": null
+  },
+  {
+   "path": "scripts/deploy.sh",
+   "kind": "new",
+   "state": "kept",
+   "conflict": null,
+   "conflict_text": null,
+   "kept": true,
+   "writing": false,
+   "copy": {
+    "size": 212,
+    "mtime": 1793958400,
+    "mode": "0755",
+    "link": null
+   },
+   "original": null,
+   "text": true,
+   "added": 9,
+   "removed": 0,
+   "merge": null
+  },
+  {
+   "path": "src/cart.ts",
+   "kind": "changed",
+   "state": "open",
+   "conflict": null,
+   "conflict_text": null,
+   "kept": false,
+   "writing": true,
+   "copy": {
+    "size": 402,
+    "mtime": 1793959140,
+    "mode": "0644",
+    "link": null
+   },
+   "original": {
+    "size": 318,
+    "mtime": 1793872800,
+    "mode": "0644",
+    "link": null
+   },
+   "text": true,
+   "added": 12,
+   "removed": 3,
+   "merge": null
+  },
+  {
+   "path": "src/checkout.ts",
+   "kind": "changed",
+   "state": "conflict",
+   "conflict": "both_changed",
+   "conflict_text": "You changed this file after the agent started.",
+   "kept": false,
+   "writing": false,
+   "copy": {
+    "size": 2210,
+    "mtime": 1793958780,
+    "mode": "0644",
+    "link": null
+   },
+   "original": {
+    "size": 2304,
+    "mtime": 1793959000,
+    "mode": "0644",
+    "link": null
+   },
+   "text": true,
+   "added": 7,
+   "removed": 9,
+   "merge": "conflicts"
+  },
+  {
+   "path": "src/legacy/old-cart.ts",
+   "kind": "deleted",
+   "state": "open",
+   "conflict": null,
+   "conflict_text": null,
+   "kept": false,
+   "writing": false,
+   "copy": null,
+   "original": {
+    "size": 1840,
+    "mtime": 1791367200,
+    "mode": "0644",
+    "link": null
+   },
+   "text": true,
+   "added": 0,
+   "removed": 61,
+   "merge": null
+  },
+  {
+   "path": "src/vendor/current",
+   "kind": "changed",
+   "state": "open",
+   "conflict": null,
+   "conflict_text": null,
+   "kept": false,
+   "writing": false,
+   "copy": {
+    "size": 6,
+    "mtime": null,
+    "mode": "0777",
+    "link": "v2.1.0"
+   },
+   "original": {
+    "size": 6,
+    "mtime": null,
+    "mode": "0777",
+    "link": "v2.0.4"
+   },
+   "text": false,
+   "added": null,
+   "removed": null,
+   "merge": null
+  }
+ ],
+ "applied": [
+  "src/price.ts"
+ ],
+ "behind": [
+  "package.json"
+ ],
+ "special": [],
+ "auto_apply": false
+}

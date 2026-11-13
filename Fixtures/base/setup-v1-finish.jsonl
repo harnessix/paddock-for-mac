@@ -1,0 +1,6 @@
+#sleep 1
+{"v":1,"t":"2026-11-06T10:20:00Z","kind":"setup","step":"fetch","bytes":6600000000,"total":14000000000,"rate":28000000,"paused":false,"stopped":false}
+#sleep 3
+{"v":1,"t":"2026-11-06T10:30:00Z","kind":"setup","step":"install","paused":false,"stopped":false,"line":"install 45%, about 4 min left"}
+#sleep 2
+{"v":1,"t":"2026-11-06T11:30:00Z","kind":"setup","step":"sealed","paused":false,"stopped":false}
